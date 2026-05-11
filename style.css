@@ -2,8 +2,8 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 :root {
-    --bg: #ffffff;
-    --bg-alt: #f7f7f5;
+    --bg: #f1f1f1;
+    --bg-alt: #1d348a;
     --ink: #1a1a1a;
     --ink-soft: #5a5a5a;
     --ink-muted: #8a8a8a;
