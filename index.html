@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="nav">
         <div class="nav-container">
-            <a href="index.html" class="logo">Intro<span>·</span>Events</a>
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Intro-Events Logo">
+                Intro-Events
+            </a>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Start</a></li>
                 <li><a href="events.html">Events</a></li>
+                <li><a href="messe.html">Intro-Messe</a></li>
                 <li><a href="about.html">Über uns</a></li>
             </ul>
         </div>
@@ -23,15 +27,16 @@
 
     <header class="hero">
         <div class="hero-content">
-            <p class="kicker">— Ein Verein für leise Menschen</p>
-            <h1>Begegnungen,<br>die nicht laut sein müssen.</h1>
-            <p class="lead">Wir organisieren Events für Introvertierte – kuratiert, klein, achtsam. Kein Smalltalk-Zwang. Kein Reizüberflutung. Nur echte Verbindung.</p>
+            <p class="kicker">Ein Verein für leise Menschen</p>
+            <h1>Begegnungen,<br>die nicht <em>laut</em> sein müssen.</h1>
+            <p class="lead">Wir organisieren Events für Introvertierte – kuratiert, klein, achtsam. Kein Smalltalk-Zwang. Keine Reizüberflutung. Nur echte Verbindung.</p>
             <div class="hero-actions">
                 <a href="events.html" class="btn btn-primary">Kommende Events</a>
-                <a href="about.html" class="btn btn-ghost">Mehr erfahren</a>
+                <a href="messe.html" class="btn btn-ghost">Intro-Messe entdecken</a>
             </div>
         </div>
-        <div class="hero-decor" aria-hidden="true"></div>
+        <span class="hero-decor top-right" aria-hidden="true">✻</span>
+        <span class="hero-decor bottom-left" aria-hidden="true">✻</span>
     </header>
 
     <section class="features">
@@ -57,7 +62,7 @@
     <section class="highlight">
         <div class="container highlight-grid">
             <div>
-                <p class="kicker">— Nächstes Event</p>
+                <p class="kicker">Nächstes Event</p>
                 <h2>Stille Lesenacht im Café Mira</h2>
                 <p class="meta">Freitag, 15. November · 19:00 Uhr · Wien</p>
                 <p>Ein Abend zum gemeinsamen Lesen. Kein Reden nötig. Tee, Kerzenlicht, dein Buch und 10 andere stille Menschen.</p>
@@ -74,7 +79,10 @@
     <footer class="footer">
         <div class="container footer-grid">
             <div>
-                <p class="logo logo-sm">Intro<span>·</span>Events</p>
+                <a href="index.html" class="logo logo-sm">
+                    <img src="logo.png" alt="Intro-Events Logo">
+                    Intro-Events
+                </a>
                 <p class="muted">Begegnungen für leise Menschen.</p>
             </div>
             <div>
