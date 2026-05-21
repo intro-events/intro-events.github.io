@@ -3,10 +3,10 @@
 
 :root {
     --bg: #f1f1f1;
-    --bg-alt: #1d348a;
+    --bg-alt: #eef0f6;      /* helles Blaugrau statt Dunkelblau */
     --ink: #1a1a1a;
-    --ink-soft: #5a5a5a;
-    --ink-muted: #8a8a8a;
+    --ink-soft: #555a66;    /* lesbar statt #c4c4c4 */
+    --ink-muted: #767c8a;   /* lesbar statt #c5c5c5 */
     --accent: #1d348a;
     --accent-hover: #142562;
     --accent-soft: #eef0f6;
